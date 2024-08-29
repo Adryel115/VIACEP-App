@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   font-size: 20px;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100vw;
+    background: rgb(0,117,255);
+    background: radial-gradient(circle, rgba(25, 69, 119, 0.842) 0%, rgba(0,0,0,1) 100%);}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    border: 2px solid rgb(24, 0, 39);
+    padding: 10px;
+    gap: 10px;
+    border-radius: 20px;
+    background-color: rgba(15, 22, 92, 0.767);
+}
+h2{
+    text-align: center;
+    color: rgb(255, 255, 255);
+    text-transform: capitalize;
+    font-size: 40px;
+}
+
+.Botao{
+   
+    padding-right: 5px;
+    padding-left: 5px;
+
+}
+
+.Botao1{
+    background-color: rgba(239, 239, 239, 0.3);
+}
